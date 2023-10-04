@@ -1,0 +1,8 @@
+﻿  QuadraticEquation.c
+D:\Lowell Files\Computing 1\CodingAssignment2\CodingAssignment2\QuadraticEquation.c(14,10): warning C4477: 'scanf_s' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'double *'
+D:\Lowell Files\Computing 1\CodingAssignment2\CodingAssignment2\QuadraticEquation.c(14,10): message : consider using '%lf' in the format string
+D:\Lowell Files\Computing 1\CodingAssignment2\CodingAssignment2\QuadraticEquation.c(16,10): warning C4477: 'scanf_s' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'double *'
+D:\Lowell Files\Computing 1\CodingAssignment2\CodingAssignment2\QuadraticEquation.c(16,10): message : consider using '%lf' in the format string
+D:\Lowell Files\Computing 1\CodingAssignment2\CodingAssignment2\QuadraticEquation.c(18,10): warning C4477: 'scanf_s' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'double *'
+D:\Lowell Files\Computing 1\CodingAssignment2\CodingAssignment2\QuadraticEquation.c(18,10): message : consider using '%lf' in the format string
+  CodingAssignment2.vcxproj -> D:\Lowell Files\Computing 1\CodingAssignment2\x64\Debug\CodingAssignment2.exe
