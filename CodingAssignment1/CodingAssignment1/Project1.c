@@ -10,7 +10,7 @@ int main(void) {
 	int x = 0;
 	scanf_s("%d", &x);
 
-	double n = 1;
+	double n = 0;
 	double fact = 1;
 	while (manual_sum != last_sum){
 		fact = 1;
@@ -26,5 +26,27 @@ int main(void) {
 	printf("the final output of the equation is %.20f\n", manual_sum);
 	double actual = exp(x);
 	printf("the actual value of the equation is %.20f\n", actual);
-	printf("the error is %.20f", (manual_sum - actual));
+	printf("the error is %.20f\n", (manual_sum - actual));
+
+	float termf = 0;
+	float manual_sumf = 0.0;
+	float last_sumf = 0.1;
+
+	float nf = 0;
+	float factf = 1;
+	while (manual_sumf != last_sumf) {
+		factf = 1;
+		for (int ii = 1; ii <= nf; ii++) {
+			factf = factf * ii;
+		}
+		termf = (pow(x, nf) / factf);
+		last_sumf = manual_sumf;
+		manual_sumf += termf;
+		printf("term: %.20f sum: %.20f\n", termf, manual_sumf);
+		nf += 1;
+	}
+	printf("the final output of the equation is %.20f\n", manual_sumf);
+	float actualf = exp(x);
+	printf("the actual value of the equation is %.20f\n", actualf);
+	printf("the error is %.20f\n", (manual_sumf - actualf));
 }
