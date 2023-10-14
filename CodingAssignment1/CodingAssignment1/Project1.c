@@ -3,31 +3,50 @@
 
 int main(void) {
 	double term = 0;
-	double sum = 0.0;
+	double manual_sum = 0.0;
 	double last_sum = 0.1;
 	
 	printf("please enter the x value to evalute the series at\n");
 	int x = 0;
 	scanf_s("%d", &x);
 
-	double n = 1;
+	double n = 0;
 	double fact = 1;
-	double power = 1;
-	while (sum != last_sum){
+	while (manual_sum != last_sum){
 		fact = 1;
-		power = pow(x, n);
 		for (int ii = 1; ii <= n; ii++) {
 			fact = fact * ii;
 		}
-		term = (power/fact);
-		last_sum = sum;
-		sum = sum + term;
-		printf("term: %f sum: %f\n", term, sum);
-		n = n + 1;
+		term = (pow(x, n)/fact);
+		last_sum = manual_sum;
+		manual_sum += term;
+		printf("term: %.20f sum: %.20f\n", term, manual_sum);
+		n += 1;
 	}
-	printf("the final output of the equation is %f\n", sum);
-	double actual = 0;
-	actual = exp(x);
-	printf("the actual value of the equation is %f\n", actual);
-	printf("the error is %f", (sum - actual));
+	printf("the final output of the equation is %.20f\n", manual_sum);
+	double actual = exp(x);
+	printf("the actual value of the equation is %.20f\n", actual);
+	printf("the error is %.20f\n", (manual_sum - actual));
+
+	float termf = 0;
+	float manual_sumf = 0.0;
+	float last_sumf = 0.1;
+
+	float nf = 0;
+	float factf = 1;
+	while (manual_sumf != last_sumf) {
+		factf = 1;
+		for (int ii = 1; ii <= nf; ii++) {
+			factf = factf * ii;
+		}
+		termf = (pow(x, nf) / factf);
+		last_sumf = manual_sumf;
+		manual_sumf += termf;
+		printf("term: %.20f sum: %.20f\n", termf, manual_sumf);
+		nf += 1;
+	}
+	printf("the final output of the equation is %.20f\n", manual_sumf);
+	float actualf = exp(x);
+	printf("the actual value of the equation is %.20f\n", actualf);
+	printf("the error is %.20f\n", (manual_sumf - actualf));
 }

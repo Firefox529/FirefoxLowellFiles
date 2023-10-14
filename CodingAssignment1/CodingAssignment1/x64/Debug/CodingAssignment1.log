@@ -1,2 +1,5 @@
 ﻿  Project1.c
-  CodingAssignment1.vcxproj -> C:\Users\chris\Documents\Lowell Files\Computing1\CodingAssignment1\x64\Debug\CodingAssignment1.exe
+D:\Lowell Files\Computing 1\CodingAssignment1\CodingAssignment1\Project1.c(42,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Lowell Files\Computing 1\CodingAssignment1\CodingAssignment1\Project1.c(33,8): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Lowell Files\Computing 1\CodingAssignment1\CodingAssignment1\Project1.c(49,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CodingAssignment1.vcxproj -> D:\Lowell Files\Computing 1\CodingAssignment1\x64\Debug\CodingAssignment1.exe
