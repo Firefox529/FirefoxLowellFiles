@@ -1,7 +1,7 @@
 ﻿  Main.c
-C:\Users\chris\Documents\Lowell Files\Computing1\DNDHomeworkAssignment\DNDHomeworkAssignment\Main.c(8,2): warning C4013: 'roll_dice' undefined; assuming extern returning int
-C:\Users\chris\Documents\Lowell Files\Computing1\DNDHomeworkAssignment\DNDHomeworkAssignment\Main.c(33,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
-C:\Users\chris\Documents\Lowell Files\Computing1\DNDHomeworkAssignment\DNDHomeworkAssignment\Main.c(33,11): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
-C:\Users\chris\Documents\Lowell Files\Computing1\DNDHomeworkAssignment\DNDHomeworkAssignment\Main.c(33,11): message : the missing variadic argument 2 is required by format string '%c'
-C:\Users\chris\Documents\Lowell Files\Computing1\DNDHomeworkAssignment\DNDHomeworkAssignment\Main.c(33,11): message : this argument is used as a buffer size
-  DNDHomeworkAssignment.vcxproj -> C:\Users\chris\Documents\Lowell Files\Computing1\DNDHomeworkAssignment\x64\Debug\DNDHomeworkAssignment.exe
+D:\Lowell Files\Computing 1\DNDHomeworkAssignment\DNDHomeworkAssignment\Main.c(8,13): warning C4013: 'roll_dice' undefined; assuming extern returning int
+D:\Lowell Files\Computing 1\DNDHomeworkAssignment\DNDHomeworkAssignment\Main.c(34,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+D:\Lowell Files\Computing 1\DNDHomeworkAssignment\DNDHomeworkAssignment\Main.c(34,12): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+D:\Lowell Files\Computing 1\DNDHomeworkAssignment\DNDHomeworkAssignment\Main.c(34,12): message : the missing variadic argument 2 is required by format string '%c'
+D:\Lowell Files\Computing 1\DNDHomeworkAssignment\DNDHomeworkAssignment\Main.c(34,12): message : this argument is used as a buffer size
+  DNDHomeworkAssignment.vcxproj -> D:\Lowell Files\Computing 1\DNDHomeworkAssignment\x64\Debug\DNDHomeworkAssignment.exe
